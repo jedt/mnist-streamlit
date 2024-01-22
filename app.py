@@ -42,6 +42,8 @@ if st.button("Predict"):
         img = Image.fromarray(np.uint8(img_data)).convert("L")
         img_inverted = ImageOps.invert(img)
 
+        img_inverted.save("drawn_digit.png")
+
         input_tensor = transform(img_inverted)
         input_batch = input_tensor.unsqueeze(0)
 
