@@ -7,7 +7,7 @@ Pytorch training of MNIST dataset using a CNN and prediction model app with html
 pip install -r requirements.txt
 
 # Train the model
-jupyter notebook .
+jupyter notebook train_mnist.ipynb
 
 # Run the prediction app
 streamlit run app.py
