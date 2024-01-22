@@ -1,5 +1,6 @@
 # mnist-streamlit
-Pytorch training of MNIST dataset using a CNN model. Also included is a prediction web app using an html5 canvas in streamlit
+Pytorch training of MNIST dataset using a CNN model. Also included is a prediction web app using an html5 canvas in streamlit.
+check out the [training notebook](https://github.com/jedt/mnist-streamlit/blob/main/train_mnist.ipynb)
 
 <img src="https://github.com/jedt/mnist-streamlit/blob/main/eight.png" alt="eight" width="400"/>
 
