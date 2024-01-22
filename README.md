@@ -3,7 +3,7 @@ Pytorch training of MNIST dataset using a CNN model. Also included is a predicti
 check out the [training notebook](https://github.com/jedt/mnist-streamlit/blob/main/train_mnist.ipynb)
 
 <img src="https://github.com/jedt/mnist-streamlit/blob/main/eight.png" alt="eight" width="400"/>
-Update: after changing the lr=3e-4 it looks like it doesn't overfit anymore
+Update: after changing the learning rate to lr=3e-4 it looks like it doesn't overfit anymore
 
 # Installation
 pip install -r requirements.txt
