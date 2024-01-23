@@ -1,8 +1,8 @@
 # mnist-streamlit
 Pytorch training of MNIST dataset using a CNN model. Also included is a prediction web app using an html5 canvas in streamlit.
-check out the [training notebook](https://github.com/jedt/mnist-streamlit/blob/main/train_mnist.ipynb)
+Check out the [training notebook](https://github.com/jedt/mnist-streamlit/blob/main/train_mnist.ipynb)
 
-<img src="https://im7.ezgif.com/tmp/ezgif-7-856b868586.gif" alt="eight" width="400"/>
+<img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSLJIQkSjR0SqTfOHK8k2GlnboTtxsurrFlNanm6VPqgljQlHDDr3mm3jFPnSL_HGM9ufLXgzzixQxNm-OpiZrm9CTynQ=w2992-h1624" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="Displaying screenshot-mnist.gif" aria-hidden="true" width="400">
 Update: after changing the learning rate to lr=3e-4 it looks like it doesn't overfit anymore
 
 # Installation
