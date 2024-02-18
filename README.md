@@ -11,7 +11,7 @@ Streamlit is a Python library that lets anyone transform Python scripts into sin
 This project aims to train a model in Pytorch that would predict any user-drawn digits from their browser. 
 
 ## Features
-The project provides a Jupyter Notebook [training code](https://github.com/jedt/mnist-streamlit/blob/main/train_mnist.ipynb) for the digit classifier and a web app enabling the model to predict new user-drawn digits from the web app via HTML5 canvas.
+Provided is the Jupyter Notebook [training code](https://github.com/jedt/mnist-streamlit/blob/main/train_mnist.ipynb) for the digit classifier and a web app enabling the model to predict new user-drawn digits from the web app via HTML5 canvas.
 
 The [model](https://github.com/jedt/mnist-streamlit/blob/main/model.py) is a convolutional neural network (CNN) and is specifically designed for image classification or, more precisely, for the MNIST dataset.
 
