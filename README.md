@@ -11,6 +11,7 @@ This project aims to train a model in Pytorch that would predict any user-drawn 
 
 ## Features
 The project provides a Jupyter Notebook [training code](https://github.com/jedt/mnist-streamlit/blob/main/train_mnist.ipynb) for the digit classifier and a web app enabling the model to predict new user-drawn digits from the web app via HTML5 canvas.
+The (model)[https://github.com/jedt/mnist-streamlit/blob/main/model.py] is a convolutional neural network (CNN) and is specifically designed for image classification or, more precisely, for the MNIST dataset.
 
 ## Getting Started
 To be able to run the project, make sure Python 3.9 or later is installed and run:
