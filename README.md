@@ -2,8 +2,9 @@
 
 Machine learning Handwritten digit recognition using the MNIST database and Streamlit
 
-Introduction
+## Introduction
 According to Wikipedia, the MNIST stands for Modified National Institute of Standards and Technology database is a large database of handwritten digits that is commonly used for training various image processing systems. The MNIST database consists of 60,000 training images and 10,000 testing images, which are digits written by high school students and employees of the United States Census Bureau.
+
 The dataset is considered the "hello, world" of machine learning. Each image is small, 28x28 pixels, and labeled according to its numeric representation.
 Streamlit is a Python library that lets anyone transform Python scripts into single-page web apps in just a few lines of code.
 
@@ -11,6 +12,7 @@ This project aims to train a model in Pytorch that would predict any user-drawn 
 
 ## Features
 The project provides a Jupyter Notebook [training code](https://github.com/jedt/mnist-streamlit/blob/main/train_mnist.ipynb) for the digit classifier and a web app enabling the model to predict new user-drawn digits from the web app via HTML5 canvas.
+
 The [model](https://github.com/jedt/mnist-streamlit/blob/main/model.py) is a convolutional neural network (CNN) and is specifically designed for image classification or, more precisely, for the MNIST dataset.
 
 ## Getting Started
