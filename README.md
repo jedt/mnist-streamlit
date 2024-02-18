@@ -15,6 +15,7 @@ The [model](https://github.com/jedt/mnist-streamlit/blob/main/model.py) is a con
 
 ## Getting Started
 To be able to run the project, make sure Python 3.9 or later is installed and run:
+
 `pip install -r requirements.txt`
 
 To test the pre-trained classifier model included in the repo:
