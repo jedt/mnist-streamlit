@@ -8,7 +8,10 @@ import numpy as np
 
 Net = get_model()
 
-device = torch.device("mps")
+device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+if device == "cpu":
+    device = torch.device("mps" if torch.cuda.is_available() else "cpu")
+
 model = Net()
 model.load_state_dict(torch.load("model/mnist.pth", map_location=device))
 model.eval()
@@ -20,6 +23,7 @@ transform = transforms.Compose(
         transforms.Normalize((0.1307,), (0.3081,)),
     ]
 )
+
 st.title("MNIST Hello world")
 st.markdown("Draw a digit below and click Predict to classify it")
 
