@@ -28,7 +28,7 @@ To train a new model, open the jupyter notebook
 
 `jupyter notebook train_mnist.ipynb`
 
-<img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSLJIQkSjR0SqTfOHK8k2GlnboTtxsurrFlNanm6VPqgljQlHDDr3mm3jFPnSL_HGM9ufLXgzzixQxNm-OpiZrm9CTynQ=w2992-h1624" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="Displaying screenshot-mnist.gif" aria-hidden="true" width="400">
+<img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYRPvNCVDxkG1uyRvMv2oBrEwocJLg-F5tUMvN7xL1R7pYE_uYy71KW144xiaVqnt-GIGFTTHobVEIFSB5X5L51sxmKNMQ=w2992-h1696" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="Displaying screenshot-mnist.gif" aria-hidden="true" width="400">
 
 ## Training accuracy results
 
